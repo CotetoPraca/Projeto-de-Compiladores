@@ -1,5 +1,5 @@
 # Projeto-de-Compiladores
-Repositório com os arquivos criados para o projeto da matéria de Compiladores da UNIFEI. O projeto visa criar analisadores léxico e sintático para a linguagem hipotética ALGOX, descrita no arquivo `ALGOX.pdf`.
+Repositório com os arquivos criados para o projeto da matéria de Compiladores da UNIFEI. O projeto visa criar analisadores léxico e sintático para a linguagem hipotética ALGOX, descrita no arquivo `Algox.pdf`.
 
 ## Requerimentos
 
