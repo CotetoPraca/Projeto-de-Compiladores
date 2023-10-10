@@ -27,3 +27,5 @@ Por fim, executamos o analisador indicando como argumentos um arquivo de entrada
 ## Analisador Sintático
 
 Verifica se a listagem de tokens geradas pelo analisador léxico segue a ordem esperada pela gramática. Pseudo-código disponível no arquivo `Projeto_Algox.pdf`.
+
+> **_NOTA:_**  Devido a falta de tempo, só o pseudocódigo do analisador sintático está disponível.
