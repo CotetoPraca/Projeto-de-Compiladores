@@ -1,0 +1,22 @@
+PROGRAMA leitura de lista
+INICIO
+  { DECLARAÇÕES }
+  INTEIRO n, i, x, k
+  LISTA_INT A[100]
+  { ALGORITMO }
+  { Armazena os dados da lista }
+  ESCREVA 'quantos números vai armazenar?'
+  LEIA n
+  i := 1
+  ENQUANTO i .M. n
+    LEIA A[i]
+    i := i + 1
+  FIM_ENQUANTO
+  { Escreve a lista de números }
+  ESCREVA 'Número armazenados:'
+  i := 1
+  ENQUANTO i .M. n
+    ESCREVA A[i], ' '
+    i := i + 1
+  FIM_ENQUANTO
+FIM
