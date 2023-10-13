@@ -5,10 +5,11 @@ Repositório com os arquivos criados para o projeto da matéria de Compiladores 
 
 - FLEX instalado no computador
 - WSL para usuários de Windows
+- Compilador para Python 3
 
 ## Analisador Léxico
 
-O analisador léxico retorna a listagem de tokens detectados na entrada.
+O analisador léxico retorna a listagem de tokens detectados na entrada. Há dois arquivos de exemplo no repositório: entradaFatorial.in e entradaLeituraLista.in. Ambos são exemplos de algoritmos escritos na linguagem hipotética Algox; o primeiro deles representa um algoritmo para cálculo fatorial na linguagem Algox, enquanto o segundo é um algoritmo para leitura de uma lista de valores.
 
 ### Executando o arquivo FLEX
 
@@ -26,6 +27,8 @@ Por fim, executamos o analisador indicando como argumentos um arquivo de entrada
 
 ## Analisador Sintático
 
-Verifica se a listagem de tokens geradas pelo analisador léxico segue a ordem esperada pela gramática. Pseudo-código disponível no arquivo `Projeto_Algox.pdf`.
+Verifica se a listagem de tokens geradas pelo analisador léxico segue a ordem esperada pela gramática. O código foi implementado na linguagem Python para agilizar a implementação.
 
-> **_NOTA:_**  Devido a falta de tempo, só o pseudocódigo do analisador sintático está disponível.
+O código espera como entrada o arquivo de saída gerado pelo analisador léxico e retorna se a gramática reconhece ou não aquela entrada, com uma tolerância máxima de 2 erros. Para executar o código, basta executá-lo como um arquivo Python e digitar o endereço do arquivo de entrada.
+
+
